@@ -98,8 +98,7 @@ class myFrame extends JFrame implements ActionListener{
 		jButton_update = new JButton("ÐÞ¸Ä");
 		jButton_delete = new JButton("É¾³ý");
 		
-		//×¢²á¼àÌý
-		jButton_add.addActionListener(this);
+		
 		jPanelSouth = new JPanel();
 		jPanelSouth.add(jButton_add);
 		jPanelSouth.add(jButton_update);
